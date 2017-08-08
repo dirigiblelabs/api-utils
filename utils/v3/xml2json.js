@@ -12,12 +12,12 @@
 
 var java = require('core/v3/java');
 
-exports.fromJson = function(var input) {
+exports.fromJson = function(input) {
 	var output = java.call('org.eclipse.dirigible.api.v3.utils.Xml2JsonFacade', 'fromJson', [input]);
 	return output;
 };
 
-exports.toJson = function(var input) {
+exports.toJson = function(input) {
 	var output = java.call('org.eclipse.dirigible.api.v3.utils.Xml2JsonFacade', 'toJson', [input]);
 	return output;
 };
