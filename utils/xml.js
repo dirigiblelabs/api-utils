@@ -14,4 +14,3 @@ var xml2json = require('utils/v3/xml2json');
 for(var propertyName in xml2json) {
 	exports[propertyName] = xml2json[propertyName];
 }
-return xml2json;

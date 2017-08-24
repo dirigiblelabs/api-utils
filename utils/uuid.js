@@ -14,4 +14,3 @@ var uuid = require('utils/v3/uuid');
 for(var propertyName in uuid) {
 	exports[propertyName] = uuid[propertyName];
 }
-return uuid;

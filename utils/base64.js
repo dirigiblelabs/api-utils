@@ -14,4 +14,3 @@ var base64 = require('utils/v3/base64');
 for(var propertyName in base64) {
 	exports[propertyName] = base64[propertyName];
 }
-return base64;
