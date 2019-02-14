@@ -162,7 +162,7 @@ exports.sha512AsNativeBytes = function(input) {
 };
 
 /**
- * Calculate SHA1 digest from input (text or byte array) and return result as 32 character hex string
+ * Calculate SHA1 digest from input (text or byte array) and return result as 40 character hex string
  */
 exports.sha1Hex = function(input) {
 	var data = input;
