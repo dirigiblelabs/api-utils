@@ -131,8 +131,6 @@ declare module "@dirigible/utils" {
 
    module qrcode {
           function generateQRCodeByteArray(text: string): byte[];
-
-          function generateQRCode(qrText: string, workspaceName: string, projectName: string, fileName: string);
       }
 
 }
