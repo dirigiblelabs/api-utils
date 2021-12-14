@@ -9,7 +9,7 @@
  *   SAP - initial API and implementation
  */
 
-var alphanumeric = require('utils/v4/alphanumeric');
-for(var propertyName in uuid) {
+const alphanumeric = require('utils/v4/alphanumeric');
+for(const propertyName in uuid) {
 	exports[propertyName] = alphanumeric[propertyName];
 }

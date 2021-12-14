@@ -8,7 +8,7 @@
  * Contributors:
  *   SAP - initial API and implementation
  */
-var escape = require('utils/v4/escape');
-for(var propertyName in escape) {
+const escape = require('utils/v4/escape');
+for(const propertyName in escape) {
 	exports[propertyName] = escape[propertyName];
 }

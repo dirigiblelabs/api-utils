@@ -8,7 +8,7 @@
  * Contributors:
  *   SAP - initial API and implementation
  */
-var assert = require('utils/v4/assert');
-for(var propertyName in assert) {
+const assert = require('utils/v4/assert');
+for(const propertyName in assert) {
 	exports[propertyName] = assert[propertyName];
 }

@@ -8,7 +8,7 @@
  * Contributors:
  *   SAP - initial API and implementation
  */
-var jp = require('utils/v4/jsonpath');
-for(var propertyName in jp) {
+const jp = require('utils/v4/jsonpath');
+for(const propertyName in jp) {
 	exports[propertyName] = jp[propertyName];
 }

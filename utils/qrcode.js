@@ -1,4 +1,4 @@
-var qrcode = require('utils/v4/qrcode');
-for(var propertyName in qrcode) {
+const qrcode = require('utils/v4/qrcode');
+for(const propertyName in qrcode) {
 	exports[propertyName] = qrcode[propertyName];
 }
